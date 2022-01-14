@@ -1,0 +1,144 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Text Hash Generator'
+  ClientHeight = 240
+  ClientWidth = 472
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbltext: TLabel
+    Left = 8
+    Top = 16
+    Width = 58
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Text:'
+  end
+  object lblmd2: TLabel
+    Left = 8
+    Top = 50
+    Width = 121
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'MD2 Hash Value:'
+  end
+  object lblmd4: TLabel
+    Left = 8
+    Top = 82
+    Width = 121
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'MD4 Hash Value:'
+  end
+  object lblmd5: TLabel
+    Left = 8
+    Top = 114
+    Width = 121
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'MD5 Hash Value:'
+  end
+  object lblsha1: TLabel
+    Left = 8
+    Top = 146
+    Width = 121
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'SHA1 Hash Value:'
+  end
+  object lblcrc16: TLabel
+    Left = 8
+    Top = 178
+    Width = 121
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'CRC16 Hash Value:'
+  end
+  object lblcrc32: TLabel
+    Left = 8
+    Top = 210
+    Width = 121
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'CRC32 Hash Value:'
+  end
+  object edittext: TEdit
+    Left = 72
+    Top = 13
+    Width = 383
+    Height = 21
+    Alignment = taCenter
+    TabOrder = 0
+    OnChange = edittextChange
+  end
+  object editmd2: TEdit
+    Left = 135
+    Top = 47
+    Width = 320
+    Height = 21
+    Alignment = taCenter
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object editmd4: TEdit
+    Left = 135
+    Top = 79
+    Width = 320
+    Height = 21
+    Alignment = taCenter
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object editmd5: TEdit
+    Left = 135
+    Top = 111
+    Width = 320
+    Height = 21
+    Alignment = taCenter
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object editsha1: TEdit
+    Left = 135
+    Top = 143
+    Width = 320
+    Height = 21
+    Alignment = taCenter
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object editcrc16: TEdit
+    Left = 135
+    Top = 175
+    Width = 320
+    Height = 21
+    Alignment = taCenter
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object editcrc32: TEdit
+    Left = 135
+    Top = 207
+    Width = 320
+    Height = 21
+    Alignment = taCenter
+    ReadOnly = True
+    TabOrder = 6
+  end
+end
